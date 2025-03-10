@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Container Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        header, footer {
+            background-color: rgb(118, 4, 75);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .ticket-card {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px solid black;
+            display: inline-block;
+        }
+        .high-priority {
+            border: 2px;
+            background-color: rgb(225, 97, 97);
+        }
+        .Low-priority {
+            border: 2px;
+            background-color: rgb(99, 189, 99);
+        }
+        .ticker-header {
+            color: Black;
+        }
+        .resolve-button {
+            color: black;
+            border: 2px;
+            padding: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #addTicketButton {
+            background-color: beige;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Ticket Customer Support</h2>
+    </header>
+
+    <main>
+        <div id="ticketContainer"></div>
+    </main>
+
+    <footer>
+        Natalie Mauricio Cruz
+        <br>
+        ~ Coding Challenge 14 ~
+    </footer>
+</body>
+</html>
